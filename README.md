@@ -1,5 +1,7 @@
 # @ngstack/electron
 
+[![CircleCI](https://circleci.com/gh/ngstack/electron.svg?style=svg)](https://circleci.com/gh/ngstack/electron)
+
 Angular library that provides integration with Electron.
 
 ## Installing
@@ -29,10 +31,10 @@ export class AppModule {}
 
 ### Electron Service
 
-* detects when application is running with Electron
-* provides access to `IpcRenderer` and cross-process communication
-* runs channel listeners within `NgZone`
-* does not affect the traditional Web applications
+- detects when application is running with Electron
+- provides access to `IpcRenderer` and cross-process communication
+- runs channel listeners within `NgZone`
+- does not affect the traditional Web applications
 
 #### Properties
 
