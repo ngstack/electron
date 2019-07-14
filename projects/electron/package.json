@@ -6,7 +6,7 @@
   "author": {
     "name": "Denys Vuika",
     "email": "denys.vuika@gmail.com",
-    "url": "https://medium.com/@DenysVuika"
+    "url": "https://denys.dev"
   },
   "keywords": [
     "angular",
@@ -21,8 +21,8 @@
     "url": "https://github.com/ngstack/electron/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/common": ">=8.1.1",
+    "@angular/core": ">=8.1.1"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10"
