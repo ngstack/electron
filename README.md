@@ -1,6 +1,6 @@
-# @ngstack/electron
+# Electron
 
-[![CircleCI](https://circleci.com/gh/ngstack/electron.svg?style=svg)](https://circleci.com/gh/ngstack/electron)
+[![Build Status](https://dev.azure.com/ngstack/electron/_apis/build/status/ngstack.electron?branchName=master)](https://dev.azure.com/ngstack/electron/_build/latest?definitionId=4&branchName=master)
 
 Angular library that provides integration with Electron.
 
