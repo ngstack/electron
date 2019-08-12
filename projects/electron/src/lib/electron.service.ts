@@ -1,5 +1,5 @@
 import { Injectable, NgZone } from '@angular/core';
-import { IpcRenderer, IpcMessageEvent } from 'electron';
+import { IpcRenderer, IpcRendererEvent } from 'electron';
 
 declare const window: any;
 
@@ -33,7 +33,7 @@ export class ElectronService {
     }
     this.ipcRenderer.on(
       channel,
-      (event: IpcMessageEvent, ...args: string[]) => {
+      (event: IpcRendererEvent, ...args: string[]) => {
         this.zone.run(() => {
           if (listener) {
             listener(event, ...args);
